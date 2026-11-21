@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Everycast — Confidentialité</title>
+  <meta name="description" content="Règles de confidentialité d'Everycast : tout reste sur l'ordinateur de l'utilisateur.">
+  <style>
+    :root { color-scheme: light dark; --bg: #fafaf9; --text: #1c1917; --muted: #57534e; --accent: #c2410c; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #1c1917; --text: #f5f5f4; --muted: #a8a29e; --accent: #fb923c; } }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+    h1 { font-size: 2rem; margin: 0 0 8px; }
+    .lead { color: var(--muted); margin-top: 0; }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Règles de confidentialité</h1>
+  <p class="lead">Everycast · dernière mise à jour : 21 novembre 2026</p>
+
+  <h2>Données collectées</h2>
+  <p>Aucune. Everycast est une application de bureau qui fonctionne entièrement sur l'ordinateur de son utilisateur. Il n'existe ni serveur Everycast, ni compte Everycast, ni statistiques d'utilisation, ni publicité.</p>
+
+  <h2>Données Google (API YouTube)</h2>
+  <p>Lorsque l'utilisateur connecte sa chaîne YouTube, Everycast obtient de Google un jeton d'accès. Ce jeton :</p>
+  <ul>
+    <li>est stocké uniquement sur l'ordinateur de l'utilisateur, chiffré par Windows ;</li>
+    <li>sert uniquement à envoyer les vidéos choisies par l'utilisateur sur sa propre chaîne et à en gérer les métadonnées (titre, description, tags, miniature, sous-titres, playlist, premier commentaire, programmation) ;</li>
+    <li>n'est jamais transmis à un tiers, ni vendu, ni utilisé à des fins publicitaires.</li>
+  </ul>
+  <p>L'utilisation des informations reçues des API Google respecte les <a href="https://developers.google.com/terms/api-services-user-data-policy">règles relatives aux données utilisateur des services d'API Google</a>, y compris les exigences d'utilisation limitée. Everycast utilise les services d'API YouTube ; voir aussi les <a href="https://www.youtube.com/t/terms">conditions d'utilisation de YouTube</a> et les <a href="https://policies.google.com/privacy">règles de confidentialité de Google</a>.</p>
+
+  <h2>Révoquer l'accès</h2>
+  <p>L'utilisateur peut déconnecter son compte dans Everycast à tout moment, ou retirer l'accès depuis la page <a href="https://myaccount.google.com/permissions">Applications tierces de son compte Google</a>.</p>
+
+  <h2 lang="en">English summary</h2>
+  <p lang="en">Everycast collects no data. It is a desktop app; the Google access token is stored only on the user's computer, encrypted by Windows, and used only to upload the user's chosen videos and manage their metadata on the user's own YouTube channel. It is never shared, sold or used for advertising. Use of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements. Access can be revoked at any time at myaccount.google.com/permissions.</p>
+
+  <p><a href="index.html">← Retour à l'accueil</a></p>
+</main>
+</body>
+</html>
